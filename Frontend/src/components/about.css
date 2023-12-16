@@ -1,0 +1,30 @@
+.custom-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%; /* Ensure all cards have the same height */
+  
+  
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  object-fit: contain; /* Display entire image without cropping */
+  height: 200px; /* Set a fixed height for the images */
+  width: 100%; /* Ensure the image takes the full width of the container */
+}
+/* .about-background {
+  background: linear-gradient(to right, #74ebd5, #acb6e5); 
+  padding: 20px;
+} */
+body{
+  background-image: url("https://img.freepik.com/free-vector/white-blurred-background_1034-249.jpg?t=st=1702312182~exp=1702312782~hmac=5e3a21043ab79d8f5b1fb66997081b3d93b1970f12dbc31ca8b68255ab8f2ab1");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  background: linear-gradient(to right, #74ebd5, #acb6e5); Set a gradient background */
+  
+}
+
